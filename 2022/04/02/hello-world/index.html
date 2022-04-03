@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
     <head>
         <title>Hello World</title>
 <meta charset="UTF-8">
@@ -13,6 +13,8 @@
 <link rel="manifest" href="/site.webmanifest">
 
         
+    
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
     
     <link rel='stylesheet' href="/./css/dracula.css">
 
@@ -161,6 +163,20 @@
 
                 
                 
+    <div id="al_gitalk_cnt" />
+    <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script>
+        var gitalk = new Gitalk({
+            clientID: "80347088f9c5310ce4bc",
+            clientSecret: "4575f6d5f0f9304ae4f61b8164960894aa0eea84",
+            repo: "gitalk-comment",
+            owner: "hc",
+            admin: "hc",
+            id: "Hello World",
+        });
+        gitalk.render("al_gitalk_cnt")
+    </script>
+
                 
     <div id="disqus_thread" clas="al_disqus">
     <script>
