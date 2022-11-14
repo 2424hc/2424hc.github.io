@@ -49,12 +49,12 @@ a {
 }
 .al_button_theme {
   color: #fff;
-  background: #b7e14e;
-  border: 1px solid #b7e14e;
+  background: #be223a;
+  border: 1px solid #be223a;
 }
 .al_button_transparent {
-  color: #b7e14e;
-  border: 1px solid #b7e14e;
+  color: #be223a;
+  border: 1px solid #be223a;
 }
 .al_letter {
   text-transform: uppercase;
@@ -146,7 +146,7 @@ em {
 @charset "UTF-8";
 .al_index_background {
   z-index: 10;
-  background-color: #b7e14e;
+  background-color: #be223a;
 }
 .al_index_background_letter {
   font-size: 600px;
@@ -193,8 +193,8 @@ em {
   color: #444;
 }
 .al_post_nav .al_post_nav_item:hover {
-  fill: #b7e14e;
-  color: #b7e14e;
+  fill: #be223a;
+  color: #be223a;
 }
 .al_post_nav .al_arrow {
   width: 10px;
@@ -276,7 +276,7 @@ em {
   word-wrap: break-word;
 }
 .al_index_post_title a:hover {
-  color: #b7e14e;
+  color: #be223a;
 }
 .al_index_post_button {
   width: calc(50% - 15px);
@@ -314,7 +314,7 @@ em {
   z-index: 11;
 }
 .al_index_footer a {
-  color: #b7e14e;
+  color: #be223a;
 }
 .al_index_footer_item {
   margin-bottom: 10px;
@@ -342,7 +342,7 @@ em {
   }
 }
 .al_page_background {
-  background-color: #b7e14e;
+  background-color: #be223a;
   z-index: 10;
 }
 .al_page_container {
@@ -364,7 +364,7 @@ em {
   cursor: zoom-in;
 }
 .al_main_page_container a {
-  color: #b7e14e;
+  color: #be223a;
 }
 .al_main_page_container q,
 .al_main_page_container blockquote {
@@ -566,7 +566,7 @@ code:not(.hljs) {
 }
 #post-body > ul li::before {
   content: "•";
-  color: #b7e14e;
+  color: #be223a;
   display: inline-block;
   margin-right: 10px;
 }
@@ -580,7 +580,7 @@ ol li {
 ol li::before {
   content: counter(ol) ".";
   counter-increment: ol;
-  color: #b7e14e;
+  color: #be223a;
   text-align: right;
   display: inline-block;
   min-width: 1em;
@@ -593,7 +593,7 @@ ol li::before {
   width: 400px;
   bottom: 0;
   z-index: 1001;
-  background-color: #b7e14e;
+  background-color: #be223a;
 }
 .al_sidebar_author_cnt {
   background-color: #fff;
@@ -729,8 +729,8 @@ ol li::before {
     fill: #bbb;
   }
   .al_post_nav .al_post_nav_item:hover {
-    fill: #b7e14e;
-    color: #b7e14e;
+    fill: #be223a;
+    color: #be223a;
   }
   .gt-comment-content {
     background-color: #090601 !important;
